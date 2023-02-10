@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e018933-54b4-4f8b-ab06-7ec30ece8d0d" name="Changes" comment="11. Retrieve Multiple results into Array list of Java objects for further Parsing">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customerInfo0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customerInfo1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customerInfo2.json" afterDir="false" />
+    <list default="true" id="2e018933-54b4-4f8b-ab06-7ec30ece8d0d" name="Changes" comment="14. Apache common String Utilities to Parse strings with escape characters">
+      <change afterPath="$PROJECT_DIR$/customerInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customerInfoSingle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerInfo0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerInfo1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customerInfo2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JsonToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonToJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676043249853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="11. Retrieve Multiple results into Array list of Java objects for further Parsing">
+      <created>1676045456227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676045456227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +125,7 @@
     <MESSAGE value="8. JDBC Connection to read the values of DB through Java" />
     <MESSAGE value="10. Converting Java objects to Json file using Jackson API" />
     <MESSAGE value="11. Retrieve Multiple results into Array list of Java objects for further Parsing" />
-    <option name="LAST_COMMIT_MESSAGE" value="11. Retrieve Multiple results into Array list of Java objects for further Parsing" />
+    <MESSAGE value="14. Apache common String Utilities to Parse strings with escape characters" />
+    <option name="LAST_COMMIT_MESSAGE" value="14. Apache common String Utilities to Parse strings with escape characters" />
   </component>
 </project>
