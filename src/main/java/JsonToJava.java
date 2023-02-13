@@ -9,7 +9,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.stream.IntStream;
 
 public class JsonToJava {
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
@@ -39,10 +38,11 @@ public class JsonToJava {
             System.out.println(c.getPurchasedDate());
         }
 
-        IntStream.range(0, a.size()).forEach(i -> {
+        for (int i = 0; i < a.size(); i++) {
             String jsonString = new Gson().toJson(a.get(i));
             ja.add(jsonString);
-        });
+            o.writeValue(new File("customerInfo" + i + ".json"), a.get(i));
+        }
 
         JSONObject jo = new JSONObject();
         jo.put("data", ja);
@@ -51,7 +51,6 @@ public class JsonToJava {
                 .replace("\"{", "{")
                 .replace("}\"", "}");
         System.out.println(json);
-        o.writeValue(new File("C:\\Users\\ruehlein\\git\\JsonJava\\customerInfo.json"), json);
         try (FileWriter file = new FileWriter("C:\\Users\\ruehlein\\git\\JsonJava\\customerInfoSingle.json")) {
             file.write(json);
         }
