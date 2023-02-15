@@ -1,3 +1,5 @@
+package json;
+
 public class CustomerInfo {
     private String courseName;
     private String purchasedDate;

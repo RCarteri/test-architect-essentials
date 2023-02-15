@@ -1,0 +1,154 @@
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Running 0/0
+ - Network jsonjava_default  Creating 0.0s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network jsonjava_default  Creating 0.1s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network jsonjava_default  Creating 0.2s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network jsonjava_default  Creating 0.3s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network jsonjava_default  Creating 0.4s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network jsonjava_default  Creating 0.5s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network jsonjava_default  Creating 0.6s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network jsonjava_default  Creating 0.7s
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ - Network jsonjava_default  Created 0.8s
+ - Container selenium-hub    Creating 0.1s
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ - Network jsonjava_default      Created 0.8s
+ - Container selenium-hub        Created 0.1s
+ - Container jsonjava-chrome-1   Creating 0.0s
+ - Container jsonjava-firefox-1  Creating 0.0s
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/4
+ - Network jsonjava_default      Created 0.8s
+ - Container selenium-hub        Created 0.1s
+ - Container jsonjava-chrome-1   Creating 0.1s
+ - Container jsonjava-firefox-1  Creating 0.1s
+[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
+ - Network jsonjava_default      Created 0.8s
+ - Container selenium-hub        Created 0.1s
+ - Container jsonjava-chrome-1   Created 0.2s
+ - Container jsonjava-firefox-1  Created 0.2s
+[?25hAttaching to jsonjava-chrome-1, jsonjava-firefox-1, selenium-hub
+selenium-hub        | 2023-02-15 15:03:19,946 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub        | 2023-02-15 15:03:19,952 INFO RPC interface 'supervisor' initialized
+selenium-hub        | 2023-02-15 15:03:19,953 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+selenium-hub        | 2023-02-15 15:03:19,954 INFO supervisord started with pid 8
+selenium-hub        | 2023-02-15 15:03:20,957 INFO spawned: 'selenium-grid-hub' with pid 10
+selenium-hub        | Tracing is disabled
+selenium-hub        | 2023-02-15 15:03:20,961 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub        | 15:03:21.680 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub        | 15:03:21.692 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub        | 15:03:21.937 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.25.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.25.0.2:4443]
+jsonjava-chrome-1   | 2023-02-15 15:03:22,108 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+jsonjava-chrome-1   | 2023-02-15 15:03:22,117 INFO RPC interface 'supervisor' initialized
+jsonjava-chrome-1   | 2023-02-15 15:03:22,117 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+jsonjava-chrome-1   | 2023-02-15 15:03:22,119 INFO supervisord started with pid 8
+jsonjava-firefox-1  | 2023-02-15 15:03:22,119 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+selenium-hub        | 15:03:22.126 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.25.0.2:4442 and tcp://172.25.0.2:4443
+jsonjava-firefox-1  | 2023-02-15 15:03:22,131 INFO RPC interface 'supervisor' initialized
+jsonjava-firefox-1  | 2023-02-15 15:03:22,131 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+jsonjava-firefox-1  | 2023-02-15 15:03:22,133 INFO supervisord started with pid 8
+selenium-hub        | 15:03:22.174 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-chrome-1   | 2023-02-15 15:03:23,123 INFO spawned: 'xvfb' with pid 10
+jsonjava-chrome-1   | 2023-02-15 15:03:23,125 INFO spawned: 'vnc' with pid 11
+jsonjava-chrome-1   | 2023-02-15 15:03:23,127 INFO spawned: 'novnc' with pid 12
+jsonjava-chrome-1   | 2023-02-15 15:03:23,129 INFO spawned: 'selenium-node' with pid 13
+jsonjava-firefox-1  | 2023-02-15 15:03:23,136 INFO spawned: 'xvfb' with pid 10
+jsonjava-firefox-1  | 2023-02-15 15:03:23,140 INFO spawned: 'vnc' with pid 11
+jsonjava-firefox-1  | 2023-02-15 15:03:23,144 INFO spawned: 'novnc' with pid 13
+jsonjava-firefox-1  | 2023-02-15 15:03:23,147 INFO spawned: 'selenium-node' with pid 16
+jsonjava-chrome-1   | 2023-02-15 15:03:23,153 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+jsonjava-firefox-1  | 2023-02-15 15:03:23,168 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub        | 15:03:23.177 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-chrome-1   | Generating Selenium Config
+jsonjava-firefox-1  | Generating Selenium Config
+jsonjava-chrome-1   | Configuring server...
+jsonjava-chrome-1   | Setting up SE_NODE_HOST...
+jsonjava-chrome-1   | Setting up SE_NODE_PORT...
+jsonjava-chrome-1   | Setting up SE_NODE_GRID_URL...
+jsonjava-firefox-1  | Configuring server...
+jsonjava-firefox-1  | Setting up SE_NODE_HOST...
+jsonjava-firefox-1  | Setting up SE_NODE_PORT...
+jsonjava-firefox-1  | Setting up SE_NODE_GRID_URL...
+jsonjava-firefox-1  | Tracing is disabled
+jsonjava-firefox-1  | Selenium Grid Node configuration: 
+jsonjava-firefox-1  | [events]
+jsonjava-firefox-1  | publish = "tcp://selenium-hub:4442"
+jsonjava-firefox-1  | subscribe = "tcp://selenium-hub:4443"
+jsonjava-firefox-1  | 
+jsonjava-firefox-1  | [node]
+jsonjava-firefox-1  | session-timeout = "300"
+jsonjava-firefox-1  | override-max-sessions = false
+jsonjava-firefox-1  | detect-drivers = false
+jsonjava-firefox-1  | drain-after-session-count = 0
+jsonjava-firefox-1  | max-sessions = 1
+jsonjava-firefox-1  | 
+jsonjava-firefox-1  | [[node.driver-configuration]]
+jsonjava-firefox-1  | display-name = "firefox"
+jsonjava-firefox-1  | stereotype = '{"browserName": "firefox", "browserVersion": "110.0b9", "platformName": "Linux"}'
+jsonjava-firefox-1  | max-sessions = 1
+jsonjava-firefox-1  | 
+jsonjava-firefox-1  | Starting Selenium Grid Node...
+jsonjava-chrome-1   | Tracing is disabled
+jsonjava-chrome-1   | Selenium Grid Node configuration: 
+jsonjava-chrome-1   | [events]
+jsonjava-chrome-1   | publish = "tcp://selenium-hub:4442"
+jsonjava-chrome-1   | subscribe = "tcp://selenium-hub:4443"
+jsonjava-chrome-1   | 
+jsonjava-chrome-1   | [node]
+jsonjava-chrome-1   | session-timeout = "300"
+jsonjava-chrome-1   | override-max-sessions = false
+jsonjava-chrome-1   | detect-drivers = false
+jsonjava-chrome-1   | drain-after-session-count = 0
+jsonjava-chrome-1   | max-sessions = 1
+jsonjava-chrome-1   | 
+jsonjava-chrome-1   | [[node.driver-configuration]]
+jsonjava-chrome-1   | display-name = "chrome"
+jsonjava-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "111.0", "platformName": "Linux"}'
+jsonjava-chrome-1   | max-sessions = 1
+jsonjava-chrome-1   | 
+jsonjava-chrome-1   | Starting Selenium Grid Node...
+jsonjava-chrome-1   | 2023-02-15 15:03:24,163 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1   | 2023-02-15 15:03:24,164 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1   | 2023-02-15 15:03:24,164 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-firefox-1  | 2023-02-15 15:03:24,176 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-firefox-1  | 2023-02-15 15:03:24,176 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-firefox-1  | 2023-02-15 15:03:24,177 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1   | 15:03:24.602 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+jsonjava-chrome-1   | 15:03:24.620 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+jsonjava-firefox-1  | 15:03:24.663 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+jsonjava-firefox-1  | 15:03:24.683 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub        | 15:03:24.919 INFO [Hub.execute] - Started Selenium Hub 4.8.0 (revision 267030adea): http://172.25.0.2:4444
+jsonjava-chrome-1   | 15:03:25.024 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+jsonjava-firefox-1  | 15:03:25.059 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+jsonjava-chrome-1   | 15:03:25.163 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-firefox-1  | 15:03:25.192 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-chrome-1   | 15:03:26.166 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-firefox-1  | 15:03:26.198 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-chrome-1   | 15:03:26.377 INFO [NodeServer.createHandlers] - Reporting self as: http://172.25.0.4:5555
+jsonjava-firefox-1  | 15:03:26.411 INFO [NodeServer.createHandlers] - Reporting self as: http://172.25.0.3:5555
+jsonjava-chrome-1   | 15:03:26.423 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+jsonjava-firefox-1  | 15:03:26.473 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+jsonjava-chrome-1   | 15:03:26.628 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "111.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+jsonjava-firefox-1  | 15:03:26.675 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "110.0b9","se:noVncPort": 7900,"browserName": "firefox","platformName": "LINUX","se:vncEnabled": true} 1 times
+jsonjava-chrome-1   | 15:03:26.688 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-firefox-1  | 15:03:26.734 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-firefox-1  | 15:03:27.325 INFO [NodeServer$1.start] - Starting registration process for Node http://172.25.0.3:5555
+jsonjava-firefox-1  | 15:03:27.329 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.25.0.3:5555
+jsonjava-chrome-1   | 15:03:27.340 INFO [NodeServer$1.start] - Starting registration process for Node http://172.25.0.4:5555
+jsonjava-chrome-1   | 15:03:27.343 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.25.0.4:5555
+jsonjava-firefox-1  | 15:03:27.364 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+jsonjava-chrome-1   | 15:03:27.377 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub        | 15:03:27.453 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub        | 15:03:28.233 INFO [GridModel.setAvailability] - Switching Node c3c1b688-18aa-4bc3-953f-26f3f8365aa7 (uri: http://172.25.0.4:5555) from DOWN to UP
+selenium-hub        | 15:03:28.234 INFO [LocalDistributor.add] - Added node c3c1b688-18aa-4bc3-953f-26f3f8365aa7 at http://172.25.0.4:5555. Health check every 120s
+selenium-hub        | 15:03:28.242 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-chrome-1   | 15:03:28.249 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub        | 15:03:28.436 INFO [GridModel.setAvailability] - Switching Node b4d8b20e-bec0-41c6-a9bd-3179a62f7586 (uri: http://172.25.0.3:5555) from DOWN to UP
+selenium-hub        | 15:03:28.436 INFO [LocalDistributor.add] - Added node b4d8b20e-bec0-41c6-a9bd-3179a62f7586 at http://172.25.0.3:5555. Health check every 120s
+jsonjava-firefox-1  | 15:03:28.440 INFO [NodeServer.lambda$createHandlers$2] - Node has been added

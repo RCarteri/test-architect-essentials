@@ -4,20 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e018933-54b4-4f8b-ab06-7ec30ece8d0d" name="Changes" comment="14. Apache common String Utilities to Parse strings with escape characters">
-      <change afterPath="$PROJECT_DIR$/customerInfo0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customerInfo1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customerInfo2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExtractJson.java" afterDir="false" />
+    <list default="true" id="2e018933-54b4-4f8b-ab06-7ec30ece8d0d" name="Changes" comment="15. Parse Json file into Java object to send the data through getter Methods">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dockerUp.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parallel/ChromeTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parallel/ChromeTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parallel/ChromeTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parallel/StartDocker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/standalone/ChromeStandaloneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/standalone/FirefoxStandaloneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customerInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customerInfoSingle.json" beforeDir="false" afterPath="$PROJECT_DIR$/customerInfoSingle.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonToJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CustomerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/CustomerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExtractJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/ExtractJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JsonToJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/JsonToJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +38,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,39 +61,124 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ruehlein\git\JsonJava" />
       <recent name="C:\Users\ruehlein\git\JsonJava\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.JsonToJava">
-    <configuration name="ExtractJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExtractJson" />
+  <component name="RunManager" selected="TestNG.StartDocker.startFile">
+    <configuration name="ChromeTest1 and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonJava" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="parallel.ChromeTest1" />
+        <pattern testClass="parallel.ChromeTest2" />
+        <pattern testClass="parallel.ChromeTest3" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonToJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JsonToJava" />
+    <configuration name="C:/Users/ruehlein/git/JsonJava/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JsonJava" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartDocker" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JsonJava" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parallel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="parallel" />
+      <option name="MAIN_CLASS_NAME" value="parallel.StartDocker" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartDocker.startFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JsonJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parallel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="parallel" />
+      <option name="MAIN_CLASS_NAME" value="parallel.StartDocker" />
+      <option name="METHOD_NAME" value="startFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="resources/docker-compose.yaml.chrome: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="chrome" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="src/main/resources/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.resources/docker-compose.yaml.chrome: Compose Deployment" />
+      <item itemvalue="JUnit.ChromeTest1 and 2 more" />
+      <item itemvalue="TestNG.C:/Users/ruehlein/git/JsonJava/testng.xml" />
+      <item itemvalue="TestNG.StartDocker" />
+      <item itemvalue="TestNG.StartDocker.startFile" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JsonToJava" />
-        <item itemvalue="Application.ExtractJson" />
+        <item itemvalue="TestNG.StartDocker.startFile" />
+        <item itemvalue="TestNG.C:/Users/ruehlein/git/JsonJava/testng.xml" />
+        <item itemvalue="TestNG.StartDocker" />
+        <item itemvalue="JUnit.ChromeTest1 and 2 more" />
+        <item itemvalue="Docker.resources/docker-compose.yaml.chrome: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676049070835</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="15. Parse Json file into Java object to send the data through getter Methods">
+      <created>1676307259888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676307259888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +246,18 @@
     <MESSAGE value="10. Converting Java objects to Json file using Jackson API" />
     <MESSAGE value="11. Retrieve Multiple results into Array list of Java objects for further Parsing" />
     <MESSAGE value="14. Apache common String Utilities to Parse strings with escape characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="14. Apache common String Utilities to Parse strings with escape characters" />
+    <MESSAGE value="15. Parse Json file into Java object to send the data through getter Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="15. Parse Json file into Java object to send the data through getter Methods" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/parallel/StartDocker.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

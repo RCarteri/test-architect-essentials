@@ -1,3 +1,5 @@
+package json;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import org.apache.commons.text.StringEscapeUtils;
@@ -22,7 +24,7 @@ public class JsonToJava {
 
         //object of statement class will help us to excecute queries
         Statement st = conn.createStatement();
-        ResultSet rs = st.executeQuery("select * from CustomerInfo where purchasedDate=CURDATE() and Location ='Asia';");
+        ResultSet rs = st.executeQuery("select * from json.CustomerInfo where purchasedDate=CURDATE() and Location ='Asia';");
 
         while (rs.next()) {
             CustomerInfo c = new CustomerInfo();
