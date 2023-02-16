@@ -3,19 +3,17 @@ package parallel;
 import org.testng.annotations.Test;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Calendar;
 
-import static java.lang.Thread.sleep;
 import static org.testng.AssertJUnit.assertTrue;
 
-public class StartDocker {
+public class StopDocker {
     @Test
-    public void startFile() throws IOException, InterruptedException {
-        String[] commandsUp = {"cmd", "/c", "start", "dockerUp.bat"};
-        String[] commandsScale = {"cmd", "/c", "start", "scale.bat"};
+    public void stopFile() throws IOException, InterruptedException {
+        String[] commandsUp = {"cmd", "/c", "start", "dockerDown.bat"};
         Runtime runtime = Runtime.getRuntime();
         runtime.exec(commandsUp);
 
@@ -33,7 +31,7 @@ public class StartDocker {
             String currentLine = bufferedReader.readLine();
 
             while (currentLine != null && !flag) {
-                if (currentLine.contains("Node has been added")) {
+                if (currentLine.contains("exited with code 143")) {
                     System.out.println("found");
                     flag = true;
                     break;
@@ -44,8 +42,7 @@ public class StartDocker {
             bufferedReader.close();
         }
         assertTrue(flag);
-        runtime.exec(commandsScale);
-        sleep(15000);
-        new FileWriter("output.txt", false).close();
+        boolean deleted = new File(file).delete();
+        if (deleted) System.out.println("File deleted");
     }
 }
