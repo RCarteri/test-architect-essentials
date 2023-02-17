@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e018933-54b4-4f8b-ab06-7ec30ece8d0d" name="Changes" comment="30. Monitor Server logs continuously from Your program for Synchronizing tests&#10;&#10;command from batch file&#10;batch file route to output files&#10;trigger batchfiles from java&#10;how to read files using java&#10;how to monitor files continoustly  for new updates until our texts are found">
-      <change afterPath="$PROJECT_DIR$/dockerDown.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scale.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/parallel/StopDocker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerUp.bat" beforeDir="false" afterPath="$PROJECT_DIR$/dockerUp.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parallel/ChromeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parallel/ChromeTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parallel/StartDocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/parallel/StartDocker.java" afterDir="false" />
+    <list default="true" id="2e018933-54b4-4f8b-ab06-7ec30ece8d0d" name="Changes" comment="34. Integrate Docker tests with Maven and Jenkins">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.StartDocker.startFile">
+  <component name="RunManager" selected="TestNG.C:/Users/ruehlein/git/JsonJava/testng.xml">
     <configuration name="ChromeTest1 and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonJava" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -178,10 +170,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/ruehlein/git/JsonJava/testng.xml" />
         <item itemvalue="TestNG.StartDocker.startFile" />
         <item itemvalue="TestNG.StartDocker" />
         <item itemvalue="TestNG.StopDocker.stopFile" />
-        <item itemvalue="TestNG.C:/Users/ruehlein/git/JsonJava/testng.xml" />
         <item itemvalue="JUnit.ChromeTest1 and 2 more" />
       </list>
     </recent_temporary>
@@ -237,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676474141915</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="32. Automate all manual tasks of cleaning data fo every test run&#10;&#10;Isn't working :/">
+      <created>1676543717757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676543717757</updated>
+    </task>
+    <task id="LOCAL-00008" summary="34. Integrate Docker tests with Maven and Jenkins">
+      <created>1676638638543</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676638638543</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,19 +266,22 @@
     <MESSAGE value="15. Parse Json file into Java object to send the data through getter Methods" />
     <MESSAGE value="30. Monitor Server logs continuously from Your program for Synchronizing tests&#10;&#10;command from batch file&#10;batch file route to" />
     <MESSAGE value="30. Monitor Server logs continuously from Your program for Synchronizing tests&#10;&#10;command from batch file&#10;batch file route to output files&#10;trigger batchfiles from java&#10;how to read files using java&#10;how to monitor files continoustly  for new updates until our texts are found" />
-    <option name="LAST_COMMIT_MESSAGE" value="30. Monitor Server logs continuously from Your program for Synchronizing tests&#10;&#10;command from batch file&#10;batch file route to output files&#10;trigger batchfiles from java&#10;how to read files using java&#10;how to monitor files continoustly  for new updates until our texts are found" />
+    <MESSAGE value="32. Automate all manual tasks of cleaning data fo every test run" />
+    <MESSAGE value="32. Automate all manual tasks of cleaning data fo every test run&#10;&#10;Isn't working :/" />
+    <MESSAGE value="34. Integrate Docker tests with Maven and Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="34. Integrate Docker tests with Maven and Jenkins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/parallel/StartDocker.java</url>
-          <line>46</line>
+          <line>42</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/parallel/StartDocker.java</url>
-          <line>13</line>
+          <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

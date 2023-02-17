@@ -1,1 +1,1 @@
-docker-compose up --scale chrome=4
+docker-compose up --scale chrome=3
