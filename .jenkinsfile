@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+    stages {
+        stage('MavenJob'){
+            steps {
+                bat "mvn clean"
+            }
+        }
+        stage('Deploy to QA'){
+            steps {
+                echo "Deploy to QA"
+            }
+        }
+        stage('Testing'){
+            steps {
+                bat "mvn test"
+            }
+        }
+        stage('Release'){
+            steps {
+                bat "mvn compile"
+                echo "Releasing the project"
+            }
+        }
+    }
+}

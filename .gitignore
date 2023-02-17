@@ -3,7 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 output.txt
-workspace.xml
+*/workspace.xml
 
 ### IntelliJ IDEA ###
 .idea/
