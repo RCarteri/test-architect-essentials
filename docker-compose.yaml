@@ -4,7 +4,7 @@
 version: "3"
 services:
   chrome:
-    image: selenium/node-chrome:beta
+    image: selenium/node-chrome
     shm_size: 2gb
     depends_on:
       - selenium-hub
@@ -14,7 +14,7 @@ services:
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
 
   firefox:
-    image: selenium/node-firefox:beta
+    image: selenium/node-firefox
     shm_size: 2gb
     depends_on:
       - selenium-hub

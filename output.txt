@@ -1,72 +1,48 @@
 failed to get console mode for stdout: The handle is invalid.
-[1A[1B[0G[?25l[+] Running 0/0
- - Network jsonjava_default  Creating 0.0s
-[?25h[1A[1A[0G[?25l[+] Running 0/1
- - Network jsonjava_default  Creating 0.1s
-[?25h[1A[1A[0G[?25l[+] Running 0/1
- - Network jsonjava_default  Creating 0.2s
-[?25h[1A[1A[0G[?25l[+] Running 0/1
- - Network jsonjava_default  Creating 0.3s
-[?25h[1A[1A[0G[?25l[+] Running 0/1
- - Network jsonjava_default  Creating 0.4s
-[?25h[1A[1A[0G[?25l[+] Running 0/1
- - Network jsonjava_default  Creating 0.5s
-[?25h[1A[1A[0G[?25l[+] Running 0/1
- - Network jsonjava_default  Creating 0.6s
-[?25h[1A[1A[0G[?25l[+] Running 0/1
- - Network jsonjava_default  Creating 0.7s
-[?25h[1A[1A[0G[?25l[+] Running 0/1
- - Network jsonjava_default  Creating 0.9s
-[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
- - Network jsonjava_default  Created 0.9s
- - Container selenium-hub    Creating 0.1s
-[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
- - Network jsonjava_default      Created 0.9s
- - Container selenium-hub        Created 0.2s
- - Container jsonjava-firefox-1  Creating 0.0s
- - Container jsonjava-chrome-1   Creating 0.0s
-[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/4
- - Network jsonjava_default      Created 0.9s
- - Container selenium-hub        Created 0.2s
+[1A[1B[0G[?25l[+] Running 1/0
+ - Container selenium-hub        Created 0.0s
  - Container jsonjava-firefox-1  Creating 0.1s
  - Container jsonjava-chrome-1   Creating 0.1s
-[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
- - Network jsonjava_default      Created 0.9s
- - Container selenium-hub        Created 0.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+ - Container selenium-hub        Created 0.0s
+ - Container jsonjava-firefox-1  Creating 0.2s
+ - Container jsonjava-chrome-1   Creating 0.2s
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ - Container selenium-hub        Created 0.0s
  - Container jsonjava-firefox-1  Created 0.2s
  - Container jsonjava-chrome-1   Created 0.2s
 [?25hAttaching to jsonjava-chrome-1, jsonjava-firefox-1, selenium-hub
-selenium-hub        | 2023-02-15 17:54:01,511 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
-selenium-hub        | 2023-02-15 17:54:01,524 INFO RPC interface 'supervisor' initialized
-selenium-hub        | 2023-02-15 17:54:01,528 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-selenium-hub        | 2023-02-15 17:54:01,530 INFO supervisord started with pid 8
-selenium-hub        | 2023-02-15 17:54:02,533 INFO spawned: 'selenium-grid-hub' with pid 10
+selenium-hub        | 2023-02-17 12:47:01,584 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub        | 2023-02-17 12:47:01,590 INFO RPC interface 'supervisor' initialized
+selenium-hub        | 2023-02-17 12:47:01,590 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+selenium-hub        | 2023-02-17 12:47:01,590 INFO supervisord started with pid 8
+selenium-hub        | 2023-02-17 12:47:02,593 INFO spawned: 'selenium-grid-hub' with pid 10
 selenium-hub        | Tracing is disabled
-selenium-hub        | 2023-02-15 17:54:02,539 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-selenium-hub        | 17:54:03.447 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-selenium-hub        | 17:54:03.461 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-selenium-hub        | 17:54:03.786 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.26.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.26.0.2:4443]
-selenium-hub        | 17:54:04.053 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.26.0.2:4442 and tcp://172.26.0.2:4443
-selenium-hub        | 17:54:04.131 INFO [UnboundZmqEventBus.<init>] - Sockets created
-jsonjava-firefox-1  | 2023-02-15 17:54:04,189 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-jsonjava-firefox-1  | 2023-02-15 17:54:04,199 INFO RPC interface 'supervisor' initialized
-jsonjava-firefox-1  | 2023-02-15 17:54:04,199 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-jsonjava-firefox-1  | 2023-02-15 17:54:04,200 INFO supervisord started with pid 8
-jsonjava-chrome-1   | 2023-02-15 17:54:04,206 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-jsonjava-chrome-1   | 2023-02-15 17:54:04,217 INFO RPC interface 'supervisor' initialized
-jsonjava-chrome-1   | 2023-02-15 17:54:04,218 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-jsonjava-chrome-1   | 2023-02-15 17:54:04,219 INFO supervisord started with pid 8
-selenium-hub        | 17:54:05.134 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-jsonjava-firefox-1  | 2023-02-15 17:54:05,204 INFO spawned: 'xvfb' with pid 10
-jsonjava-firefox-1  | 2023-02-15 17:54:05,218 INFO spawned: 'vnc' with pid 12
-jsonjava-firefox-1  | 2023-02-15 17:54:05,222 INFO spawned: 'novnc' with pid 16
-jsonjava-chrome-1   | 2023-02-15 17:54:05,223 INFO spawned: 'xvfb' with pid 10
-jsonjava-firefox-1  | 2023-02-15 17:54:05,226 INFO spawned: 'selenium-node' with pid 20
-jsonjava-chrome-1   | 2023-02-15 17:54:05,228 INFO spawned: 'vnc' with pid 11
-jsonjava-chrome-1   | 2023-02-15 17:54:05,243 INFO spawned: 'novnc' with pid 16
-jsonjava-chrome-1   | 2023-02-15 17:54:05,245 INFO spawned: 'selenium-node' with pid 18
-jsonjava-firefox-1  | 2023-02-15 17:54:05,272 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-jsonjava-chrome-1   | 2023-02-15 17:54:05,295 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub        | 2023-02-17 12:47:02,600 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub        | 12:47:03.304 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub        | 12:47:03.315 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub        | 12:47:03.582 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.29.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.29.0.2:4443]
+selenium-hub        | 12:47:03.781 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.29.0.2:4442 and tcp://172.29.0.2:4443
+selenium-hub        | 12:47:03.851 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-firefox-1  | 2023-02-17 12:47:03,987 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+jsonjava-firefox-1  | 2023-02-17 12:47:03,994 INFO RPC interface 'supervisor' initialized
+jsonjava-firefox-1  | 2023-02-17 12:47:03,994 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+jsonjava-firefox-1  | 2023-02-17 12:47:03,997 INFO supervisord started with pid 8
+jsonjava-chrome-1   | 2023-02-17 12:47:04,010 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+jsonjava-chrome-1   | 2023-02-17 12:47:04,016 INFO RPC interface 'supervisor' initialized
+jsonjava-chrome-1   | 2023-02-17 12:47:04,016 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+jsonjava-chrome-1   | 2023-02-17 12:47:04,017 INFO supervisord started with pid 8
+selenium-hub        | 12:47:04.854 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-firefox-1  | 2023-02-17 12:47:05,000 INFO spawned: 'xvfb' with pid 10
+jsonjava-firefox-1  | 2023-02-17 12:47:05,003 INFO spawned: 'vnc' with pid 11
+jsonjava-firefox-1  | 2023-02-17 12:47:05,006 INFO spawned: 'novnc' with pid 12
+jsonjava-firefox-1  | 2023-02-17 12:47:05,010 INFO spawned: 'selenium-node' with pid 14
+jsonjava-chrome-1   | 2023-02-17 12:47:05,023 INFO spawned: 'xvfb' with pid 10
+jsonjava-chrome-1   | 2023-02-17 12:47:05,030 INFO spawned: 'vnc' with pid 11
+jsonjava-firefox-1  | 2023-02-17 12:47:05,036 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+jsonjava-chrome-1   | 2023-02-17 12:47:05,037 INFO spawned: 'novnc' with pid 13
+jsonjava-chrome-1   | 2023-02-17 12:47:05,040 INFO spawned: 'selenium-node' with pid 16
+jsonjava-chrome-1   | 2023-02-17 12:47:05,070 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
 jsonjava-firefox-1  | Generating Selenium Config
 jsonjava-firefox-1  | Configuring server...
 jsonjava-firefox-1  | Setting up SE_NODE_HOST...
@@ -79,8 +55,6 @@ jsonjava-chrome-1   | Setting up SE_NODE_PORT...
 jsonjava-chrome-1   | Setting up SE_NODE_GRID_URL...
 jsonjava-firefox-1  | Tracing is disabled
 jsonjava-firefox-1  | Selenium Grid Node configuration: 
-jsonjava-firefox-1  | 2023-02-15 17:54:06,212 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-firefox-1  | 2023-02-15 17:54:06,213 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 jsonjava-firefox-1  | [events]
 jsonjava-firefox-1  | publish = "tcp://selenium-hub:4442"
 jsonjava-firefox-1  | subscribe = "tcp://selenium-hub:4443"
@@ -94,14 +68,10 @@ jsonjava-firefox-1  | max-sessions = 1
 jsonjava-firefox-1  | 
 jsonjava-firefox-1  | [[node.driver-configuration]]
 jsonjava-firefox-1  | display-name = "firefox"
-jsonjava-firefox-1  | stereotype = '{"browserName": "firefox", "browserVersion": "110.0b9", "platformName": "Linux"}'
+jsonjava-firefox-1  | stereotype = '{"browserName": "firefox", "browserVersion": "109.0", "platformName": "Linux"}'
 jsonjava-firefox-1  | max-sessions = 1
 jsonjava-firefox-1  | 
 jsonjava-firefox-1  | Starting Selenium Grid Node...
-jsonjava-firefox-1  | 2023-02-15 17:54:06,291 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-1   | 2023-02-15 17:54:06,309 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-1   | 2023-02-15 17:54:06,309 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-1   | 2023-02-15 17:54:06,309 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 jsonjava-chrome-1   | Tracing is disabled
 jsonjava-chrome-1   | Selenium Grid Node configuration: 
 jsonjava-chrome-1   | [events]
@@ -117,66 +87,72 @@ jsonjava-chrome-1   | max-sessions = 1
 jsonjava-chrome-1   | 
 jsonjava-chrome-1   | [[node.driver-configuration]]
 jsonjava-chrome-1   | display-name = "chrome"
-jsonjava-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "111.0", "platformName": "Linux"}'
+jsonjava-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "110.0", "platformName": "Linux"}'
 jsonjava-chrome-1   | max-sessions = 1
 jsonjava-chrome-1   | 
 jsonjava-chrome-1   | Starting Selenium Grid Node...
-selenium-hub        | 17:54:07.411 INFO [Hub.execute] - Started Selenium Hub 4.8.0 (revision 267030adea): http://172.26.0.2:4444
-jsonjava-firefox-1  | 17:54:07.560 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-jsonjava-firefox-1  | 17:54:07.580 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-jsonjava-chrome-1   | 17:54:07.805 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-jsonjava-chrome-1   | 17:54:07.819 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-jsonjava-firefox-1  | 17:54:07.910 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-jsonjava-firefox-1  | 17:54:08.096 INFO [UnboundZmqEventBus.<init>] - Sockets created
-jsonjava-chrome-1   | 17:54:08.146 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-jsonjava-chrome-1   | 17:54:08.268 INFO [UnboundZmqEventBus.<init>] - Sockets created
-jsonjava-firefox-1  | 17:54:09.101 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-jsonjava-chrome-1   | 17:54:09.274 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-jsonjava-firefox-1  | 17:54:09.349 INFO [NodeServer.createHandlers] - Reporting self as: http://172.26.0.3:5555
-jsonjava-firefox-1  | 17:54:09.424 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
-jsonjava-chrome-1   | 17:54:09.575 INFO [NodeServer.createHandlers] - Reporting self as: http://172.26.0.4:5555
-jsonjava-firefox-1  | 17:54:09.584 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "110.0b9","se:noVncPort": 7900,"browserName": "firefox","platformName": "LINUX","se:vncEnabled": true} 1 times
-jsonjava-chrome-1   | 17:54:09.631 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
-jsonjava-firefox-1  | 17:54:09.642 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-jsonjava-chrome-1   | 17:54:09.760 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "111.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
-jsonjava-chrome-1   | 17:54:09.815 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-jsonjava-firefox-1  | 17:54:10.127 INFO [NodeServer$1.start] - Starting registration process for Node http://172.26.0.3:5555
-jsonjava-firefox-1  | 17:54:10.130 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.26.0.3:5555
-jsonjava-firefox-1  | 17:54:10.166 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub        | 17:54:10.259 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-jsonjava-chrome-1   | 17:54:10.272 INFO [NodeServer$1.start] - Starting registration process for Node http://172.26.0.4:5555
-jsonjava-chrome-1   | 17:54:10.275 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.26.0.4:5555
-jsonjava-chrome-1   | 17:54:10.296 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub        | 17:54:11.661 INFO [GridModel.setAvailability] - Switching Node 3db3640a-a6b0-488e-8541-9a3d826ade58 (uri: http://172.26.0.3:5555) from DOWN to UP
-selenium-hub        | 17:54:11.663 INFO [LocalDistributor.add] - Added node 3db3640a-a6b0-488e-8541-9a3d826ade58 at http://172.26.0.3:5555. Health check every 120s
-selenium-hub        | 17:54:11.671 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-jsonjava-firefox-1  | 17:54:11.689 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-selenium-hub        | 17:54:12.075 INFO [GridModel.setAvailability] - Switching Node 34becb11-0d57-4dd8-9cb4-66eb19dd83a5 (uri: http://172.26.0.4:5555) from DOWN to UP
-selenium-hub        | 17:54:12.076 INFO [LocalDistributor.add] - Added node 34becb11-0d57-4dd8-9cb4-66eb19dd83a5 at http://172.26.0.4:5555. Health check every 120s
-jsonjava-chrome-1   | 17:54:12.085 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+jsonjava-firefox-1  | 2023-02-17 12:47:06,043 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-firefox-1  | 2023-02-17 12:47:06,043 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-firefox-1  | 2023-02-17 12:47:06,043 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1   | 2023-02-17 12:47:06,079 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1   | 2023-02-17 12:47:06,079 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1   | 2023-02-17 12:47:06,079 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1   | 12:47:06.545 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+jsonjava-chrome-1   | 12:47:06.565 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub        | 12:47:06.569 INFO [Hub.execute] - Started Selenium Hub 4.8.0 (revision 267030adea): http://172.29.0.2:4444
+jsonjava-firefox-1  | 12:47:06.567 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+jsonjava-firefox-1  | 12:47:06.587 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+jsonjava-chrome-1   | 12:47:06.892 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+jsonjava-firefox-1  | 12:47:06.905 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+jsonjava-firefox-1  | 12:47:07.032 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-chrome-1   | 12:47:07.034 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-firefox-1  | 12:47:08.037 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-chrome-1   | 12:47:08.041 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-chrome-1   | 12:47:08.217 INFO [NodeServer.createHandlers] - Reporting self as: http://172.29.0.4:5555
+jsonjava-firefox-1  | 12:47:08.229 INFO [NodeServer.createHandlers] - Reporting self as: http://172.29.0.3:5555
+jsonjava-chrome-1   | 12:47:08.267 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+jsonjava-firefox-1  | 12:47:08.275 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+jsonjava-firefox-1  | 12:47:08.366 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "109.0","se:noVncPort": 7900,"browserName": "firefox","platformName": "LINUX","se:vncEnabled": true} 1 times
+jsonjava-chrome-1   | 12:47:08.372 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "110.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+jsonjava-firefox-1  | 12:47:08.399 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-chrome-1   | 12:47:08.411 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-firefox-1  | 12:47:08.707 INFO [NodeServer$1.start] - Starting registration process for Node http://172.29.0.3:5555
+jsonjava-firefox-1  | 12:47:08.710 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.29.0.3:5555
+jsonjava-chrome-1   | 12:47:08.713 INFO [NodeServer$1.start] - Starting registration process for Node http://172.29.0.4:5555
+jsonjava-chrome-1   | 12:47:08.715 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.29.0.4:5555
+jsonjava-firefox-1  | 12:47:08.730 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+jsonjava-chrome-1   | 12:47:08.738 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub        | 12:47:08.796 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub        | 12:47:09.401 INFO [GridModel.setAvailability] - Switching Node b93f6724-2777-4930-a392-3a343bab5257 (uri: http://172.29.0.4:5555) from DOWN to UP
+selenium-hub        | 12:47:09.402 INFO [LocalDistributor.add] - Added node b93f6724-2777-4930-a392-3a343bab5257 at http://172.29.0.4:5555. Health check every 120s
+selenium-hub        | 12:47:09.407 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-chrome-1   | 12:47:09.417 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub        | 12:47:09.601 INFO [GridModel.setAvailability] - Switching Node 57deb770-f9ab-476b-8202-17fd6ded17be (uri: http://172.29.0.3:5555) from DOWN to UP
+selenium-hub        | 12:47:09.601 INFO [LocalDistributor.add] - Added node 57deb770-f9ab-476b-8202-17fd6ded17be at http://172.29.0.3:5555. Health check every 120s
+jsonjava-firefox-1  | 12:47:09.605 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
 jsonjava-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
-jsonjava-chrome-1   | 2023-02-15 17:54:13,087 WARN received SIGTERM indicating exit request
-jsonjava-chrome-1   | 2023-02-15 17:54:13,087 INFO waiting for xvfb, vnc, novnc, selenium-node to die
-jsonjava-chrome-1   | 2023-02-15 17:54:13,431 INFO stopped: selenium-node (terminated by SIGTERM)
-jsonjava-chrome-1   | 2023-02-15 17:54:14,434 INFO stopped: novnc (terminated by SIGTERM)
-jsonjava-chrome-1   | 2023-02-15 17:54:15,436 INFO stopped: vnc (terminated by SIGTERM)
-jsonjava-chrome-1   | 2023-02-15 17:54:16,434 INFO stopped: xvfb (terminated by SIGTERM)
+jsonjava-chrome-1   | 2023-02-17 12:47:11,421 WARN received SIGTERM indicating exit request
+jsonjava-chrome-1   | 2023-02-17 12:47:11,422 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+jsonjava-chrome-1   | 2023-02-17 12:47:11,751 INFO stopped: selenium-node (terminated by SIGTERM)
+jsonjava-chrome-1   | 2023-02-17 12:47:12,754 INFO stopped: novnc (terminated by SIGTERM)
+jsonjava-chrome-1   | 2023-02-17 12:47:13,756 INFO stopped: vnc (terminated by SIGTERM)
+jsonjava-chrome-1   | 2023-02-17 12:47:14,758 INFO stopped: xvfb (terminated by SIGTERM)
 jsonjava-chrome-1   | Shutdown complete
 jsonjava-chrome-1 exited with code 143
-7ae5a467f07a_jsonjava-chrome-1 exited with code 0
-jsonjava-chrome-1               | 2023-02-15 17:54:18,818 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-jsonjava-chrome-1               | 2023-02-15 17:54:18,822 INFO RPC interface 'supervisor' initialized
-jsonjava-chrome-1               | 2023-02-15 17:54:18,823 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-jsonjava-chrome-1               | 2023-02-15 17:54:18,823 INFO supervisord started with pid 8
-jsonjava-chrome-1               | 2023-02-15 17:54:19,828 INFO spawned: 'xvfb' with pid 10
-jsonjava-chrome-1               | 2023-02-15 17:54:19,830 INFO spawned: 'vnc' with pid 11
-jsonjava-chrome-1               | 2023-02-15 17:54:19,833 INFO spawned: 'novnc' with pid 12
-jsonjava-chrome-1               | 2023-02-15 17:54:19,836 INFO spawned: 'selenium-node' with pid 13
-jsonjava-chrome-1               | 2023-02-15 17:54:19,859 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-jsonjava-chrome-3               | 2023-02-15 17:54:20,181 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-jsonjava-chrome-3               | 2023-02-15 17:54:20,188 INFO RPC interface 'supervisor' initialized
-jsonjava-chrome-3               | 2023-02-15 17:54:20,189 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-jsonjava-chrome-3               | 2023-02-15 17:54:20,191 INFO supervisord started with pid 8
+551337918a9e_jsonjava-chrome-1 exited with code 0
+jsonjava-chrome-1               | 2023-02-17 12:47:16,912 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+jsonjava-chrome-1               | 2023-02-17 12:47:16,917 INFO RPC interface 'supervisor' initialized
+jsonjava-chrome-1               | 2023-02-17 12:47:16,918 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+jsonjava-chrome-1               | 2023-02-17 12:47:16,919 INFO supervisord started with pid 9
+jsonjava-chrome-1               | 2023-02-17 12:47:17,922 INFO spawned: 'xvfb' with pid 11
+jsonjava-chrome-1               | 2023-02-17 12:47:17,925 INFO spawned: 'vnc' with pid 12
+jsonjava-chrome-1               | 2023-02-17 12:47:17,928 INFO spawned: 'novnc' with pid 13
+jsonjava-chrome-1               | 2023-02-17 12:47:17,931 INFO spawned: 'selenium-node' with pid 17
+jsonjava-chrome-1               | 2023-02-17 12:47:17,948 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+jsonjava-chrome-2               | 2023-02-17 12:47:18,020 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+jsonjava-chrome-2               | 2023-02-17 12:47:18,026 INFO RPC interface 'supervisor' initialized
+jsonjava-chrome-2               | 2023-02-17 12:47:18,026 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+jsonjava-chrome-2               | 2023-02-17 12:47:18,027 INFO supervisord started with pid 8
 jsonjava-chrome-1               | Generating Selenium Config
 jsonjava-chrome-1               | Configuring server...
 jsonjava-chrome-1               | Setting up SE_NODE_HOST...
@@ -197,72 +173,31 @@ jsonjava-chrome-1               | max-sessions = 1
 jsonjava-chrome-1               | 
 jsonjava-chrome-1               | [[node.driver-configuration]]
 jsonjava-chrome-1               | display-name = "chrome"
-jsonjava-chrome-1               | stereotype = '{"browserName": "chrome", "browserVersion": "111.0", "platformName": "Linux"}'
+jsonjava-chrome-1               | stereotype = '{"browserName": "chrome", "browserVersion": "110.0", "platformName": "Linux"}'
 jsonjava-chrome-1               | max-sessions = 1
 jsonjava-chrome-1               | 
 jsonjava-chrome-1               | Starting Selenium Grid Node...
-jsonjava-chrome-1               | 2023-02-15 17:54:20,872 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-1               | 2023-02-15 17:54:20,872 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-1               | 2023-02-15 17:54:20,872 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-3               | 2023-02-15 17:54:21,193 INFO spawned: 'xvfb' with pid 10
-jsonjava-chrome-3               | 2023-02-15 17:54:21,197 INFO spawned: 'vnc' with pid 11
-jsonjava-chrome-3               | 2023-02-15 17:54:21,202 INFO spawned: 'novnc' with pid 13
-jsonjava-chrome-1               | 17:54:21.198 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-jsonjava-chrome-3               | 2023-02-15 17:54:21,211 INFO spawned: 'selenium-node' with pid 21
-jsonjava-chrome-1               | 17:54:21.221 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-jsonjava-chrome-3               | 2023-02-15 17:54:21,250 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-jsonjava-chrome-3               | Generating Selenium Config
-jsonjava-chrome-3               | Configuring server...
-jsonjava-chrome-3               | Setting up SE_NODE_HOST...
-jsonjava-chrome-3               | Setting up SE_NODE_PORT...
-jsonjava-chrome-3               | Setting up SE_NODE_GRID_URL...
-jsonjava-chrome-1               | 17:54:21.753 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-jsonjava-chrome-3               | Tracing is disabled
-jsonjava-chrome-3               | Selenium Grid Node configuration: 
-jsonjava-chrome-3               | [events]
-jsonjava-chrome-3               | publish = "tcp://selenium-hub:4442"
-jsonjava-chrome-3               | subscribe = "tcp://selenium-hub:4443"
-jsonjava-chrome-3               | 
-jsonjava-chrome-3               | [node]
-jsonjava-chrome-3               | session-timeout = "300"
-jsonjava-chrome-3               | override-max-sessions = false
-jsonjava-chrome-3               | detect-drivers = false
-jsonjava-chrome-3               | drain-after-session-count = 0
-jsonjava-chrome-3               | max-sessions = 1
-jsonjava-chrome-3               | 
-jsonjava-chrome-3               | [[node.driver-configuration]]
-jsonjava-chrome-3               | display-name = "chrome"
-jsonjava-chrome-3               | stereotype = '{"browserName": "chrome", "browserVersion": "111.0", "platformName": "Linux"}'
-jsonjava-chrome-3               | max-sessions = 1
-jsonjava-chrome-3               | 
-jsonjava-chrome-3               | Starting Selenium Grid Node...
-jsonjava-chrome-1               | 17:54:22.029 INFO [UnboundZmqEventBus.<init>] - Sockets created
-jsonjava-chrome-2               | 2023-02-15 17:54:22,124 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-jsonjava-chrome-2               | 2023-02-15 17:54:22,142 INFO RPC interface 'supervisor' initialized
-jsonjava-chrome-2               | 2023-02-15 17:54:22,142 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-jsonjava-chrome-2               | 2023-02-15 17:54:22,145 INFO supervisord started with pid 8
-jsonjava-chrome-3               | 2023-02-15 17:54:22,227 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-3               | 2023-02-15 17:54:22,227 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-3               | 2023-02-15 17:54:22,227 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-3               | 17:54:22.881 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-jsonjava-chrome-3               | 17:54:22.891 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-jsonjava-chrome-1               | 17:54:23.042 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-jsonjava-chrome-2               | 2023-02-15 17:54:23,154 INFO spawned: 'xvfb' with pid 10
-jsonjava-chrome-2               | 2023-02-15 17:54:23,164 INFO spawned: 'vnc' with pid 11
-jsonjava-chrome-2               | 2023-02-15 17:54:23,192 INFO spawned: 'novnc' with pid 19
-jsonjava-chrome-2               | 2023-02-15 17:54:23,213 INFO spawned: 'selenium-node' with pid 26
-jsonjava-chrome-3               | 17:54:23.238 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-jsonjava-chrome-2               | 2023-02-15 17:54:23,260 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-jsonjava-chrome-1               | 17:54:23.461 INFO [NodeServer.createHandlers] - Reporting self as: http://172.26.0.4:5555
-jsonjava-chrome-3               | 17:54:23.507 INFO [UnboundZmqEventBus.<init>] - Sockets created
-jsonjava-chrome-1               | 17:54:23.545 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+jsonjava-chrome-1               | 12:47:18.821 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+jsonjava-chrome-1               | 12:47:18.828 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+jsonjava-chrome-1               | 2023-02-17 12:47:18,953 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1               | 2023-02-17 12:47:18,953 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1               | 2023-02-17 12:47:18,953 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-1               | 12:47:18.982 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+jsonjava-chrome-2               | 2023-02-17 12:47:19,029 INFO spawned: 'xvfb' with pid 10
+jsonjava-chrome-2               | 2023-02-17 12:47:19,031 INFO spawned: 'vnc' with pid 11
+jsonjava-chrome-2               | 2023-02-17 12:47:19,033 INFO spawned: 'novnc' with pid 12
+jsonjava-chrome-2               | 2023-02-17 12:47:19,037 INFO spawned: 'selenium-node' with pid 14
+jsonjava-chrome-1               | 12:47:19.065 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-chrome-2               | 2023-02-17 12:47:19,087 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+jsonjava-chrome-3               | 2023-02-17 12:47:19,372 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+jsonjava-chrome-3               | 2023-02-17 12:47:19,378 INFO RPC interface 'supervisor' initialized
+jsonjava-chrome-3               | 2023-02-17 12:47:19,378 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+jsonjava-chrome-3               | 2023-02-17 12:47:19,379 INFO supervisord started with pid 8
 jsonjava-chrome-2               | Generating Selenium Config
 jsonjava-chrome-2               | Configuring server...
 jsonjava-chrome-2               | Setting up SE_NODE_HOST...
 jsonjava-chrome-2               | Setting up SE_NODE_PORT...
 jsonjava-chrome-2               | Setting up SE_NODE_GRID_URL...
-jsonjava-chrome-1               | 17:54:23.760 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "111.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
-jsonjava-chrome-1               | 17:54:23.813 INFO [Node.<init>] - Binding additional locator mechanisms: relative
 jsonjava-chrome-2               | Tracing is disabled
 jsonjava-chrome-2               | Selenium Grid Node configuration: 
 jsonjava-chrome-2               | [events]
@@ -278,394 +213,162 @@ jsonjava-chrome-2               | max-sessions = 1
 jsonjava-chrome-2               | 
 jsonjava-chrome-2               | [[node.driver-configuration]]
 jsonjava-chrome-2               | display-name = "chrome"
-jsonjava-chrome-2               | stereotype = '{"browserName": "chrome", "browserVersion": "111.0", "platformName": "Linux"}'
+jsonjava-chrome-2               | stereotype = '{"browserName": "chrome", "browserVersion": "110.0", "platformName": "Linux"}'
 jsonjava-chrome-2               | max-sessions = 1
 jsonjava-chrome-2               | 
 jsonjava-chrome-2               | Starting Selenium Grid Node...
-jsonjava-chrome-4               | 2023-02-15 17:54:24,062 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
-jsonjava-chrome-4               | 2023-02-15 17:54:24,074 INFO RPC interface 'supervisor' initialized
-jsonjava-chrome-4               | 2023-02-15 17:54:24,074 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-jsonjava-chrome-4               | 2023-02-15 17:54:24,076 INFO supervisord started with pid 8
-jsonjava-chrome-2               | 2023-02-15 17:54:24,241 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-2               | 2023-02-15 17:54:24,241 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-2               | 2023-02-15 17:54:24,241 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-1               | 17:54:24.387 INFO [NodeServer$1.start] - Starting registration process for Node http://172.26.0.4:5555
-jsonjava-chrome-1               | 17:54:24.390 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.26.0.4:5555
-jsonjava-chrome-1               | 17:54:24.412 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub                    | 17:54:24.429 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-jsonjava-chrome-3               | 17:54:24.514 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-jsonjava-chrome-3               | 17:54:24.941 INFO [NodeServer.createHandlers] - Reporting self as: http://172.26.0.5:5555
-selenium-hub                    | 17:54:24.941 INFO [GridModel.setAvailability] - Switching Node 27c85714-70f1-482e-a2d0-0e5abcd680e3 (uri: http://172.26.0.4:5555) from DOWN to UP
-selenium-hub                    | 17:54:24.942 INFO [LocalDistributor.add] - Added node 27c85714-70f1-482e-a2d0-0e5abcd680e3 at http://172.26.0.4:5555. Health check every 120s
-jsonjava-chrome-1               | 17:54:24.973 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-jsonjava-chrome-3               | 17:54:25.065 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
-jsonjava-chrome-4               | 2023-02-15 17:54:25,102 INFO spawned: 'xvfb' with pid 10
-jsonjava-chrome-4               | 2023-02-15 17:54:25,129 INFO spawned: 'vnc' with pid 11
-jsonjava-chrome-4               | 2023-02-15 17:54:25,149 INFO spawned: 'novnc' with pid 14
-jsonjava-chrome-4               | 2023-02-15 17:54:25,183 INFO spawned: 'selenium-node' with pid 22
-jsonjava-chrome-4               | 2023-02-15 17:54:25,230 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
-jsonjava-chrome-2               | 17:54:25.367 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-jsonjava-chrome-2               | 17:54:25.404 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-jsonjava-chrome-3               | 17:54:25.451 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "111.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
-jsonjava-chrome-3               | 17:54:25.552 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-jsonjava-chrome-4               | Generating Selenium Config
-jsonjava-chrome-4               | Configuring server...
-jsonjava-chrome-4               | Setting up SE_NODE_HOST...
-jsonjava-chrome-4               | Setting up SE_NODE_PORT...
-jsonjava-chrome-4               | Setting up SE_NODE_GRID_URL...
-jsonjava-chrome-2               | 17:54:25.919 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-jsonjava-chrome-4               | Tracing is disabled
-jsonjava-chrome-4               | Selenium Grid Node configuration: 
-jsonjava-chrome-4               | [events]
-jsonjava-chrome-4               | publish = "tcp://selenium-hub:4442"
-jsonjava-chrome-4               | subscribe = "tcp://selenium-hub:4443"
-jsonjava-chrome-4               | 
-jsonjava-chrome-4               | [node]
-jsonjava-chrome-4               | session-timeout = "300"
-jsonjava-chrome-4               | override-max-sessions = false
-jsonjava-chrome-4               | detect-drivers = false
-jsonjava-chrome-4               | drain-after-session-count = 0
-jsonjava-chrome-4               | max-sessions = 1
-jsonjava-chrome-4               | 
-jsonjava-chrome-4               | [[node.driver-configuration]]
-jsonjava-chrome-4               | display-name = "chrome"
-jsonjava-chrome-4               | stereotype = '{"browserName": "chrome", "browserVersion": "111.0", "platformName": "Linux"}'
-jsonjava-chrome-4               | max-sessions = 1
-jsonjava-chrome-4               | 
-jsonjava-chrome-4               | Starting Selenium Grid Node...
-jsonjava-chrome-4               | 2023-02-15 17:54:26,146 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-4               | 2023-02-15 17:54:26,146 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-4               | 2023-02-15 17:54:26,146 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-jsonjava-chrome-2               | 17:54:26.152 INFO [UnboundZmqEventBus.<init>] - Sockets created
-jsonjava-chrome-3               | 17:54:26.287 INFO [NodeServer$1.start] - Starting registration process for Node http://172.26.0.5:5555
-jsonjava-chrome-3               | 17:54:26.291 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.26.0.5:5555
-jsonjava-chrome-3               | 17:54:26.340 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub                    | 17:54:26.364 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-selenium-hub                    | 17:54:26.802 INFO [GridModel.setAvailability] - Switching Node bbb574f2-6be8-4cc2-a011-5cc387b43d03 (uri: http://172.26.0.5:5555) from DOWN to UP
-selenium-hub                    | 17:54:26.803 INFO [LocalDistributor.add] - Added node bbb574f2-6be8-4cc2-a011-5cc387b43d03 at http://172.26.0.5:5555. Health check every 120s
-jsonjava-chrome-3               | 17:54:26.828 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-jsonjava-chrome-2               | 17:54:27.157 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-jsonjava-chrome-4               | 17:54:27.336 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
-jsonjava-chrome-4               | 17:54:27.355 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
-jsonjava-chrome-2               | 17:54:27.705 INFO [NodeServer.createHandlers] - Reporting self as: http://172.26.0.6:5555
-jsonjava-chrome-2               | 17:54:27.793 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
-jsonjava-chrome-4               | 17:54:27.946 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
-jsonjava-chrome-2               | 17:54:27.982 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "111.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
-jsonjava-chrome-2               | 17:54:28.076 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-jsonjava-chrome-4               | 17:54:28.272 INFO [UnboundZmqEventBus.<init>] - Sockets created
-jsonjava-chrome-2               | 17:54:28.799 INFO [NodeServer$1.start] - Starting registration process for Node http://172.26.0.6:5555
-jsonjava-chrome-2               | 17:54:28.803 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.26.0.6:5555
-jsonjava-chrome-2               | 17:54:28.829 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub                    | 17:54:28.852 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-selenium-hub                    | 17:54:29.238 INFO [GridModel.setAvailability] - Switching Node 66611865-0779-4894-b593-78feb3907c55 (uri: http://172.26.0.6:5555) from DOWN to UP
-selenium-hub                    | 17:54:29.239 INFO [LocalDistributor.add] - Added node 66611865-0779-4894-b593-78feb3907c55 at http://172.26.0.6:5555. Health check every 120s
-jsonjava-chrome-4               | 17:54:29.283 INFO [UnboundZmqEventBus.<init>] - Event bus ready
-jsonjava-chrome-2               | 17:54:29.306 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-jsonjava-chrome-4               | 17:54:29.642 INFO [NodeServer.createHandlers] - Reporting self as: http://172.26.0.7:5555
-jsonjava-chrome-4               | 17:54:29.688 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
-jsonjava-chrome-4               | 17:54:29.817 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "111.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
-jsonjava-chrome-4               | 17:54:29.872 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-jsonjava-chrome-4               | 17:54:30.288 INFO [NodeServer$1.start] - Starting registration process for Node http://172.26.0.7:5555
-jsonjava-chrome-4               | 17:54:30.290 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.26.0.7:5555
-jsonjava-chrome-4               | 17:54:30.313 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
-selenium-hub                    | 17:54:30.326 INFO [Node.<init>] - Binding additional locator mechanisms: relative
-selenium-hub                    | 17:54:30.568 INFO [GridModel.setAvailability] - Switching Node 9176ad3b-17a6-4191-bd5b-b81824f43853 (uri: http://172.26.0.7:5555) from DOWN to UP
-selenium-hub                    | 17:54:30.568 INFO [LocalDistributor.add] - Added node 9176ad3b-17a6-4191-bd5b-b81824f43853 at http://172.26.0.7:5555. Health check every 120s
-jsonjava-chrome-4               | 17:54:30.578 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
-failed to get console mode for stdout: The handle is invalid.
-failed to get console mode for stdout: The handle is invalid.
-[1A[1B[0G[?25l[+] Running 0/0
- - Container jsonjava-firefox-1  Stopping 0.1s
- - Container jsonjava-chrome-1   Stopping 0.1s
- - Container jsonjava-chrome-4   Stopping 0.1s
- - Container jsonjava-chrome-3   Stopping 0.1s
- - Container jsonjava-chrome-2   Stopping 0.1s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 0.2s
- - Container jsonjava-chrome-1   Stopping 0.2s
- - Container jsonjava-chrome-4   Stopping 0.2s
- - Container jsonjava-chrome-3   Stopping 0.2s
- - Container jsonjava-chrome-2   Stopping 0.2s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 0.3s
- - Container jsonjava-chrome-1   Stopping 0.3s
- - Container jsonjava-chrome-4   Stopping 0.3s
- - Container jsonjava-chrome-3   Stopping 0.3s
- - Container jsonjava-chrome-2   Stopping 0.3s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 0.4s
- - Container jsonjava-chrome-1   Stopping 0.4s
- - Container jsonjava-chrome-4   Stopping 0.4s
- - Container jsonjava-chrome-3   Stopping 0.4s
- - Container jsonjava-chrome-2   Stopping 0.4s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 0.5s
- - Container jsonjava-chrome-1   Stopping 0.5s
- - Container jsonjava-chrome-4   Stopping 0.5s
- - Container jsonjava-chrome-3   Stopping 0.5s
- - Container jsonjava-chrome-2   Stopping 0.5s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 0.6s
- - Container jsonjava-chrome-1   Stopping 0.6s
- - Container jsonjava-chrome-4   Stopping 0.6s
- - Container jsonjava-chrome-3   Stopping 0.6s
- - Container jsonjava-chrome-2   Stopping 0.6s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 0.7s
- - Container jsonjava-chrome-1   Stopping 0.7s
- - Container jsonjava-chrome-4   Stopping 0.7s
- - Container jsonjava-chrome-3   Stopping 0.7s
- - Container jsonjava-chrome-2   Stopping 0.7s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 0.8s
- - Container jsonjava-chrome-1   Stopping 0.8s
- - Container jsonjava-chrome-4   Stopping 0.8s
- - Container jsonjava-chrome-3   Stopping 0.8s
- - Container jsonjava-chrome-2   Stopping 0.8s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 0.9s
- - Container jsonjava-chrome-1   Stopping 0.9s
- - Container jsonjava-chrome-4   Stopping 0.9s
- - Container jsonjava-chrome-3   Stopping 0.9s
- - Container jsonjava-chrome-2   Stopping 0.9s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.0s
- - Container jsonjava-chrome-1   Stopping 1.0s
- - Container jsonjava-chrome-4   Stopping 1.0s
- - Container jsonjava-chrome-3   Stopping 1.0s
- - Container jsonjava-chrome-2   Stopping 1.0s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.1s
- - Container jsonjava-chrome-1   Stopping 1.1s
- - Container jsonjava-chrome-4   Stopping 1.1s
- - Container jsonjava-chrome-3   Stopping 1.1s
- - Container jsonjava-chrome-2   Stopping 1.1s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.2s
- - Container jsonjava-chrome-1   Stopping 1.2s
- - Container jsonjava-chrome-4   Stopping 1.2s
- - Container jsonjava-chrome-3   Stopping 1.2s
- - Container jsonjava-chrome-2   Stopping 1.2s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.3s
- - Container jsonjava-chrome-1   Stopping 1.3s
- - Container jsonjava-chrome-4   Stopping 1.3s
- - Container jsonjava-chrome-3   Stopping 1.3s
- - Container jsonjava-chrome-2   Stopping 1.3s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.4s
- - Container jsonjava-chrome-1   Stopping 1.4s
- - Container jsonjava-chrome-4   Stopping 1.4s
- - Container jsonjava-chrome-3   Stopping 1.4s
- - Container jsonjava-chrome-2   Stopping 1.4s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.5s
- - Container jsonjava-chrome-1   Stopping 1.5s
- - Container jsonjava-chrome-4   Stopping 1.5s
- - Container jsonjava-chrome-3   Stopping 1.5s
- - Container jsonjava-chrome-2   Stopping 1.5s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.6s
- - Container jsonjava-chrome-1   Stopping 1.6s
- - Container jsonjava-chrome-4   Stopping 1.6s
- - Container jsonjava-chrome-3   Stopping 1.6s
- - Container jsonjava-chrome-2   Stopping 1.6s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.7s
- - Container jsonjava-chrome-1   Stopping 1.7s
- - Container jsonjava-chrome-4   Stopping 1.7s
- - Container jsonjava-chrome-3   Stopping 1.7s
- - Container jsonjava-chrome-2   Stopping 1.7s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.8s
- - Container jsonjava-chrome-1   Stopping 1.8s
- - Container jsonjava-chrome-4   Stopping 1.8s
- - Container jsonjava-chrome-3   Stopping 1.8s
- - Container jsonjava-chrome-2   Stopping 1.8s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 1.9s
- - Container jsonjava-chrome-1   Stopping 1.9s
- - Container jsonjava-chrome-4   Stopping 1.9s
- - Container jsonjava-chrome-3   Stopping 1.9s
- - Container jsonjava-chrome-2   Stopping 1.9s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.0s
- - Container jsonjava-chrome-1   Stopping 2.0s
- - Container jsonjava-chrome-4   Stopping 2.0s
- - Container jsonjava-chrome-3   Stopping 2.0s
- - Container jsonjava-chrome-2   Stopping 2.0s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.1s
- - Container jsonjava-chrome-1   Stopping 2.1s
- - Container jsonjava-chrome-4   Stopping 2.1s
- - Container jsonjava-chrome-3   Stopping 2.1s
- - Container jsonjava-chrome-2   Stopping 2.1s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.2s
- - Container jsonjava-chrome-1   Stopping 2.2s
- - Container jsonjava-chrome-4   Stopping 2.2s
- - Container jsonjava-chrome-3   Stopping 2.2s
- - Container jsonjava-chrome-2   Stopping 2.2s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.3s
- - Container jsonjava-chrome-1   Stopping 2.3s
- - Container jsonjava-chrome-4   Stopping 2.3s
- - Container jsonjava-chrome-3   Stopping 2.3s
- - Container jsonjava-chrome-2   Stopping 2.3s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.4s
- - Container jsonjava-chrome-1   Stopping 2.4s
- - Container jsonjava-chrome-4   Stopping 2.4s
- - Container jsonjava-chrome-3   Stopping 2.4s
- - Container jsonjava-chrome-2   Stopping 2.4s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.5s
- - Container jsonjava-chrome-1   Stopping 2.5s
- - Container jsonjava-chrome-4   Stopping 2.5s
- - Container jsonjava-chrome-3   Stopping 2.5s
- - Container jsonjava-chrome-2   Stopping 2.5s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.6s
- - Container jsonjava-chrome-1   Stopping 2.6s
- - Container jsonjava-chrome-4   Stopping 2.6s
- - Container jsonjava-chrome-3   Stopping 2.6s
- - Container jsonjava-chrome-2   Stopping 2.6s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.7s
- - Container jsonjava-chrome-1   Stopping 2.7s
- - Container jsonjava-chrome-4   Stopping 2.7s
- - Container jsonjava-chrome-3   Stopping 2.7s
- - Container jsonjava-chrome-2   Stopping 2.7s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.8s
- - Container jsonjava-chrome-1   Stopping 2.8s
- - Container jsonjava-chrome-4   Stopping 2.8s
- - Container jsonjava-chrome-3   Stopping 2.8s
- - Container jsonjava-chrome-2   Stopping 2.8s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 2.9s
- - Container jsonjava-chrome-1   Stopping 2.9s
- - Container jsonjava-chrome-4   Stopping 2.9s
- - Container jsonjava-chrome-3   Stopping 2.9s
- - Container jsonjava-chrome-2   Stopping 2.9s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.0s
- - Container jsonjava-chrome-1   Stopping 3.0s
- - Container jsonjava-chrome-4   Stopping 3.0s
- - Container jsonjava-chrome-3   Stopping 3.0s
- - Container jsonjava-chrome-2   Stopping 3.0s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.1s
- - Container jsonjava-chrome-1   Stopping 3.1s
- - Container jsonjava-chrome-4   Stopping 3.1s
- - Container jsonjava-chrome-3   Stopping 3.1s
- - Container jsonjava-chrome-2   Stopping 3.1s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.2s
- - Container jsonjava-chrome-1   Stopping 3.2s
- - Container jsonjava-chrome-4   Stopping 3.2s
- - Container jsonjava-chrome-3   Stopping 3.2s
- - Container jsonjava-chrome-2   Stopping 3.2s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.3s
- - Container jsonjava-chrome-1   Stopping 3.3s
- - Container jsonjava-chrome-4   Stopping 3.3s
- - Container jsonjava-chrome-3   Stopping 3.3s
- - Container jsonjava-chrome-2   Stopping 3.3s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.4s
- - Container jsonjava-chrome-1   Stopping 3.4s
- - Container jsonjava-chrome-4   Stopping 3.4s
- - Container jsonjava-chrome-3   Stopping 3.4s
- - Container jsonjava-chrome-2   Stopping 3.4s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.5s
- - Container jsonjava-chrome-1   Stopping 3.5s
- - Container jsonjava-chrome-4   Stopping 3.5s
- - Container jsonjava-chrome-3   Stopping 3.5s
- - Container jsonjava-chrome-2   Stopping 3.5s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.6s
- - Container jsonjava-chrome-1   Stopping 3.6s
- - Container jsonjava-chrome-4   Stopping 3.6s
- - Container jsonjava-chrome-3   Stopping 3.6s
- - Container jsonjava-chrome-2   Stopping 3.6s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.7s
- - Container jsonjava-chrome-1   Stopping 3.7s
- - Container jsonjava-chrome-4   Stopping 3.7s
- - Container jsonjava-chrome-3   Stopping 3.7s
- - Container jsonjava-chrome-2   Stopping 3.7s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.8s
- - Container jsonjava-chrome-1   Stopping 3.8s
- - Container jsonjava-chrome-4   Stopping 3.8s
- - Container jsonjava-chrome-3   Stopping 3.8s
- - Container jsonjava-chrome-2   Stopping 3.8s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 3.9s
- - Container jsonjava-chrome-1   Stopping 3.9s
- - Container jsonjava-chrome-4   Stopping 3.9s
- - Container jsonjava-chrome-3   Stopping 3.9s
- - Container jsonjava-chrome-2   Stopping 3.9s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 4.0s
- - Container jsonjava-chrome-1   Stopping 4.0s
- - Container jsonjava-chrome-4   Stopping 4.0s
- - Container jsonjava-chrome-3   Stopping 4.0s
- - Container jsonjava-chrome-2   Stopping 4.0s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 4.1s
- - Container jsonjava-chrome-1   Stopping 4.1s
- - Container jsonjava-chrome-4   Stopping 4.1s
- - Container jsonjava-chrome-3   Stopping 4.1s
- - Container jsonjava-chrome-2   Stopping 4.1s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 4.2s
- - Container jsonjava-chrome-1   Stopping 4.2s
- - Container jsonjava-chrome-4   Stopping 4.2s
- - Container jsonjava-chrome-3   Stopping 4.2s
- - Container jsonjava-chrome-2   Stopping 4.2s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 4.3s
- - Container jsonjava-chrome-1   Stopping 4.3s
- - Container jsonjava-chrome-4   Stopping 4.3s
- - Container jsonjava-chrome-3   Stopping 4.3s
- - Container jsonjava-chrome-2   Stopping 4.3s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 4.4s
- - Container jsonjava-chrome-1   Stopping 4.4s
- - Container jsonjava-chrome-4   Stopping 4.4s
- - Container jsonjava-chrome-3   Stopping 4.4s
- - Container jsonjava-chrome-2   Stopping 4.4s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 0/5
- - Container jsonjava-firefox-1  Stopping 4.5s
- - Container jsonjava-chrome-1   Stopping 4.5s
- - Container jsonjava-chrome-4   Stopping 4.5s
- - Container jsonjava-chrome-3   Stopping 4.5s
- - Container jsonjava-chrome-2   Stopping 4.5s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
- - Container jsonjava-firefox-1  Stopped 4.5s
- - Container jsonjava-chrome-1   Stopping 4.6s
- - Container jsonjava-chrome-4   Stopping 4.6s
- - Container jsonjava-chrome-3   Stopping 4.6s
- - Container jsonjava-chrome-2   Stopping 4.6s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
- - Container jsonjava-firefox-1  Stopped 4.5s
- - Container jsonjava-chrome-1   Stopping 4.7s
- - Container jsonjava-chrome-4   Stopping 4.7s
- - Container jsonjava-chrome-3   Stopping 4.7s
- - Container jsonjava-chrome-2   Stopping 4.7s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 1/5
- - Container jsonjava-firefox-1  Stopped 4.5s
- - Container jsonjava-chrome-1   Stopping 4.8s
- - Container jsonjava-chrome-4   Stopping 4.8s
- - Container jsonjava-chrome-3   Stopping 4.8s
- - Container jsonjava-chrome-2   Stopping 4.8s
-[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/5
- - Container jsonjava-firefox-1  Stopped 4.5s
- - Container jsonjava-chrome-1   Stopped 4.8s
- - Container jsonjava-chrome-4   Stopping 4.9s
- - Container jsonjava-chrome-3   Stopping 4.9s
- - Container jsonjava-chrome-2   Stopping 4.9s
-[?25h
+jsonjava-chrome-2               | 12:47:19.942 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+jsonjava-chrome-2               | 12:47:19.952 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+jsonjava-chrome-1               | 12:47:20.068 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-chrome-2               | 2023-02-17 12:47:20,092 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-2               | 2023-02-17 12:47:20,092 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-2               | 2023-02-17 12:47:20,092 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-2               | 12:47:20.152 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+jsonjava-chrome-1               | 12:47:20.239 INFO [NodeServer.createHandlers] - Reporting self as: http://172.29.0.4:5555
+jsonjava-chrome-2               | 12:47:20.252 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-chrome-1               | 12:47:20.275 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+jsonjava-chrome-1               | 12:47:20.351 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "110.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+jsonjava-chrome-3               | 2023-02-17 12:47:20,383 INFO spawned: 'xvfb' with pid 10
+jsonjava-chrome-1               | 12:47:20.386 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-chrome-3               | 2023-02-17 12:47:20,389 INFO spawned: 'vnc' with pid 11
+jsonjava-chrome-3               | 2023-02-17 12:47:20,394 INFO spawned: 'novnc' with pid 17
+jsonjava-chrome-3               | 2023-02-17 12:47:20,398 INFO spawned: 'selenium-node' with pid 21
+jsonjava-chrome-3               | 2023-02-17 12:47:20,419 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+jsonjava-chrome-1               | 12:47:20.674 INFO [NodeServer$1.start] - Starting registration process for Node http://172.29.0.4:5555
+jsonjava-chrome-1               | 12:47:20.675 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.29.0.4:5555
+jsonjava-chrome-1               | 12:47:20.692 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub                    | 12:47:20.704 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-chrome-3               | Generating Selenium Config
+jsonjava-chrome-3               | Configuring server...
+jsonjava-chrome-3               | Setting up SE_NODE_HOST...
+jsonjava-chrome-3               | Setting up SE_NODE_PORT...
+jsonjava-chrome-3               | Setting up SE_NODE_GRID_URL...
+jsonjava-chrome-3               | Tracing is disabled
+jsonjava-chrome-3               | Selenium Grid Node configuration: 
+jsonjava-chrome-3               | [events]
+jsonjava-chrome-3               | publish = "tcp://selenium-hub:4442"
+jsonjava-chrome-3               | subscribe = "tcp://selenium-hub:4443"
+jsonjava-chrome-3               | 
+jsonjava-chrome-3               | [node]
+jsonjava-chrome-3               | session-timeout = "300"
+jsonjava-chrome-3               | override-max-sessions = false
+jsonjava-chrome-3               | detect-drivers = false
+jsonjava-chrome-3               | drain-after-session-count = 0
+jsonjava-chrome-3               | max-sessions = 1
+jsonjava-chrome-3               | 
+jsonjava-chrome-3               | [[node.driver-configuration]]
+jsonjava-chrome-3               | display-name = "chrome"
+jsonjava-chrome-3               | stereotype = '{"browserName": "chrome", "browserVersion": "110.0", "platformName": "Linux"}'
+jsonjava-chrome-3               | max-sessions = 1
+jsonjava-chrome-3               | 
+jsonjava-chrome-3               | Starting Selenium Grid Node...
+selenium-hub                    | 12:47:20.950 INFO [GridModel.setAvailability] - Switching Node dc61808c-c3f0-44ef-8339-bf4d88484225 (uri: http://172.29.0.4:5555) from DOWN to UP
+selenium-hub                    | 12:47:20.950 INFO [LocalDistributor.add] - Added node dc61808c-c3f0-44ef-8339-bf4d88484225 at http://172.29.0.4:5555. Health check every 120s
+jsonjava-chrome-1               | 12:47:20.961 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+jsonjava-chrome-2               | 12:47:21.255 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-chrome-3               | 12:47:21.410 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+jsonjava-chrome-3               | 2023-02-17 12:47:21,413 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-3               | 2023-02-17 12:47:21,413 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-3               | 2023-02-17 12:47:21,413 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+jsonjava-chrome-3               | 12:47:21.421 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+jsonjava-chrome-2               | 12:47:21.435 INFO [NodeServer.createHandlers] - Reporting self as: http://172.29.0.5:5555
+jsonjava-chrome-2               | 12:47:21.473 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+jsonjava-chrome-2               | 12:47:21.557 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "110.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+jsonjava-chrome-2               | 12:47:21.599 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-chrome-3               | 12:47:21.670 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+jsonjava-chrome-3               | 12:47:21.773 INFO [UnboundZmqEventBus.<init>] - Sockets created
+jsonjava-chrome-2               | 12:47:21.905 INFO [NodeServer$1.start] - Starting registration process for Node http://172.29.0.5:5555
+jsonjava-chrome-2               | 12:47:21.907 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.29.0.5:5555
+jsonjava-chrome-2               | 12:47:21.924 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub                    | 12:47:21.936 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub                    | 12:47:22.191 INFO [GridModel.setAvailability] - Switching Node 3101d412-d43d-453b-a15a-93bdae38a6f3 (uri: http://172.29.0.5:5555) from DOWN to UP
+selenium-hub                    | 12:47:22.192 INFO [LocalDistributor.add] - Added node 3101d412-d43d-453b-a15a-93bdae38a6f3 at http://172.29.0.5:5555. Health check every 120s
+jsonjava-chrome-2               | 12:47:22.202 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+jsonjava-chrome-3               | 12:47:22.777 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+jsonjava-chrome-3               | 12:47:22.897 INFO [NodeServer.createHandlers] - Reporting self as: http://172.29.0.6:5555
+jsonjava-chrome-3               | 12:47:22.917 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+jsonjava-chrome-3               | 12:47:22.975 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "110.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+jsonjava-chrome-3               | 12:47:23.000 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+jsonjava-chrome-3               | 12:47:23.220 INFO [NodeServer$1.start] - Starting registration process for Node http://172.29.0.6:5555
+jsonjava-chrome-3               | 12:47:23.222 INFO [NodeServer.execute] - Started Selenium node 4.8.0 (revision 267030adea): http://172.29.0.6:5555
+jsonjava-chrome-3               | 12:47:23.235 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub                    | 12:47:23.243 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+selenium-hub                    | 12:47:23.406 INFO [GridModel.setAvailability] - Switching Node fd65ad87-f2b7-4827-96ee-7495c35064d3 (uri: http://172.29.0.6:5555) from DOWN to UP
+selenium-hub                    | 12:47:23.406 INFO [LocalDistributor.add] - Added node fd65ad87-f2b7-4827-96ee-7495c35064d3 at http://172.29.0.6:5555. Health check every 120s
+jsonjava-chrome-3               | 12:47:23.415 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub                    | 12:47:26.028 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub                    |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]
+jsonjava-chrome-1               | Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 4158
+jsonjava-chrome-1               | Only local connections are allowed.
+jsonjava-chrome-1               | Please see https://chromedr[1i6v7e6r6.38c0h4r6o.m1i8u3m].[oSrEVgE/RsEe]curity-con:si dberiantdi(on)s  ffaoirl esdu:g gCeasntnioot assign requestend adsd roens sk e(e9p9i)n
+jsonjava-chrome-1               | g ChromeDriver safe.
+jsonjava-chrome-1               | ChromeDriver was started successfully.
+jsonjava-chrome-1               | [1676638046.914][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+jsonjava-chrome-1               | 12:47:27.078 INFO [LocalNode.newSession] - Session created by the Node. Id: d9f70794580379b55b0f071a23112067, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.n3wmSx}, goog:chromeOptions: {debuggerAddress: localhost:37593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: http://localhost:37593, se:cdpVersion: 110.0.5481.77, se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub                    | 12:47:27.113 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: d9f70794580379b55b0f071a23112067 
+selenium-hub                    |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.n3wmSx}, goog:chromeOptions: {debuggerAddress: localhost:37593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.29.0.4:4444/sessio..., se:cdpVersion: 110.0.5481.77, se:vnc: ws://172.29.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub                    | 12:47:29.305 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub                    |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]
+jsonjava-chrome-3               | Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 15839
+jsonjava-chrome-3               | Only local connections are allowed.
+jsonjava-chrome-3               | Please see https://chromedriver.chromium.org/security-considerations f[1676638049.41o2][SrE VsEugRgEe]s:t iboinnsd (o)n  fkaeielping ChromeDriver seafde:. 
+jsonjava-chrome-3               | ChromeDriCvanenro tw aass ssitganr treedq useusctecde sasdfdurlelsys .(
+jsonjava-chrome-3               | 99)
+jsonjava-chrome-3               | [1676638050.238][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+jsonjava-chrome-3               | 12:47:30.537 INFO [LocalNode.newSession] - Session created by the Node. Id: b68846b12f5159930df69b37b53e116f, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.Uy7q8q}, goog:chromeOptions: {debuggerAddress: localhost:35105}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: http://localhost:35105, se:cdpVersion: 110.0.5481.77, se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub                    | 12:47:30.576 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: b68846b12f5159930df69b37b53e116f 
+selenium-hub                    |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.Uy7q8q}, goog:chromeOptions: {debuggerAddress: localhost:35105}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.29.0.6:4444/sessio..., se:cdpVersion: 110.0.5481.77, se:vnc: ws://172.29.0.6:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub                    | 12:47:34.585 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-hub                    |  [Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]
+jsonjava-chrome-2               | Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 15981
+jsonjava-chrome-2               | Only local connections are allowed.
+jsonjava-chrome-2               | Please see https://chromedriver.chromium.org/security-considerations for [suggestions on keeping Chr1o6me7D6r6i3v8e0r5 4s.af7e.1
+jsonjava-chrome-2               | ChromeDriver was star5te]d[ SsEuVccEeRsEs]f:u lbilnyd.(
+jsonjava-chrome-2               | ) failed: Cannot assign requested address (99)
+jsonjava-chrome-2               | [1676638055.502][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+jsonjava-chrome-2               | 12:47:35.665 INFO [LocalNode.newSession] - Session created by the Node. Id: 5c2a503e843b1ef423cbc98224f4bf22, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.NTNwPf}, goog:chromeOptions: {debuggerAddress: localhost:36759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: http://localhost:36759, se:cdpVersion: 110.0.5481.77, se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub                    | 12:47:35.689 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 5c2a503e843b1ef423cbc98224f4bf22 
+selenium-hub                    |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.77, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.NTNwPf}, goog:chromeOptions: {debuggerAddress: localhost:36759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.29.0.5:4444/sessio..., se:cdpVersion: 110.0.5481.77, se:vnc: ws://172.29.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.29.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+jsonjava-firefox-1              | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+jsonjava-chrome-1               | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+jsonjava-chrome-2               | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+jsonjava-chrome-3               | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+jsonjava-chrome-1               | 2023-02-17 12:47:40,097 WARN received SIGTERM indicating exit request
+jsonjava-chrome-1               | 2023-02-17 12:47:40,097 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-hub                    | 12:47:40.158 INFO [GridModel.release] - Releasing slot for session id d9f70794580379b55b0f071a23112067
+selenium-hub                    | 12:47:40.159 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: d9f70794580379b55b0f071a23112067
+jsonjava-chrome-1               | 2023-02-17 12:47:40,482 INFO stopped: selenium-node (terminated by SIGTERM)
+jsonjava-chrome-3               | 2023-02-17 12:47:40,553 WARN received SIGTERM indicating exit request
+jsonjava-chrome-3               | 2023-02-17 12:47:40,554 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+jsonjava-chrome-3               | 12:47:40.572 INFO [LocalNode.stopAllSessions] - Trying to stop all running sessions before shutting down...
+jsonjava-chrome-3               | 2023-02-17 12:47:40,575 INFO stopped: selenium-node (terminated by SIGTERM)
+selenium-hub                    | 12:47:40.620 INFO [GridModel.release] - Releasing slot for session id b68846b12f5159930df69b37b53e116f
+selenium-hub                    | 12:47:40.621 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: b68846b12f5159930df69b37b53e116f
+jsonjava-firefox-1              | 2023-02-17 12:47:40,646 WARN received SIGTERM indicating exit request
+jsonjava-firefox-1              | 2023-02-17 12:47:40,646 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+jsonjava-chrome-2               | 2023-02-17 12:47:40,674 WARN received SIGTERM indicating exit request
+jsonjava-chrome-2               | 2023-02-17 12:47:40,678 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-hub                    | 12:47:40.740 INFO [GridModel.release] - Releasing slot for session id 5c2a503e843b1ef423cbc98224f4bf22
+selenium-hub                    | 12:47:40.740 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 5c2a503e843b1ef423cbc98224f4bf22
+jsonjava-firefox-1              | 2023-02-17 12:47:40,981 INFO stopped: selenium-node (terminated by SIGTERM)
+jsonjava-chrome-2               | 2023-02-17 12:47:41,062 INFO stopped: selenium-node (terminated by SIGTERM)
+jsonjava-chrome-1               | 2023-02-17 12:47:41,483 INFO stopped: novnc (terminated by SIGTERM)
+jsonjava-chrome-3               | 2023-02-17 12:47:41,578 INFO stopped: novnc (terminated by SIGTERM)
+jsonjava-firefox-1              | 2023-02-17 12:47:41,983 INFO stopped: novnc (terminated by SIGTERM)
+jsonjava-chrome-2               | 2023-02-17 12:47:42,064 INFO stopped: novnc (terminated by SIGTERM)
+jsonjava-chrome-1               | 2023-02-17 12:47:42,486 INFO stopped: vnc (terminated by SIGTERM)
+jsonjava-chrome-3               | 2023-02-17 12:47:42,580 INFO stopped: vnc (terminated by SIGTERM)
+jsonjava-firefox-1              | 2023-02-17 12:47:42,985 INFO stopped: vnc (terminated by SIGTERM)
+jsonjava-chrome-2               | 2023-02-17 12:47:43,067 INFO stopped: vnc (terminated by SIGTERM)
+jsonjava-chrome-1               | 2023-02-17 12:47:43,489 INFO stopped: xvfb (terminated by SIGTERM)
+jsonjava-chrome-1               | Shutdown complete
+jsonjava-chrome-3               | 2023-02-17 12:47:43,582 INFO stopped: xvfb (terminated by SIGTERM)
+jsonjava-chrome-3               | Shutdown complete
+jsonjava-firefox-1              | 2023-02-17 12:47:43,987 INFO stopped: xvfb (terminated by SIGTERM)
+jsonjava-firefox-1              | Shutdown complete
+jsonjava-chrome-2               | 2023-02-17 12:47:44,069 INFO stopped: xvfb (terminated by SIGTERM)
+jsonjava-chrome-2               | Shutdown complete
+jsonjava-chrome-1 exited with code 143
+jsonjava-chrome-3 exited with code 143
+jsonjava-firefox-1 exited with code 143
+jsonjava-chrome-2 exited with code 143
