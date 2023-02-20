@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e018933-54b4-4f8b-ab06-7ec30ece8d0d" name="Changes" comment="34. Integrate Docker tests with Maven and Jenkins">
-      <change afterPath="$PROJECT_DIR$/.jenkinsfile" afterDir="false" />
+    <list default="true" id="2e018933-54b4-4f8b-ab06-7ec30ece8d0d" name="Changes" comment="41. Demo- Push the JenkinFIle into Github and Start running Pipeline">
+      <change afterPath="$PROJECT_DIR$/src/main/java/excelDataProvider/DataProvide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ruehlein/git/JsonJava",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ruehlein/git/JsonJava&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ruehlein\git\JsonJava" />
@@ -74,23 +75,28 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/ruehlein/git/JsonJava/testng.xml">
-    <configuration name="ChromeTest1 and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JsonJava" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="parallel.ChromeTest1" />
-        <pattern testClass="parallel.ChromeTest2" />
-        <pattern testClass="parallel.ChromeTest3" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.DataProvide">
     <configuration name="C:/Users/ruehlein/git/JsonJava/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JsonJava" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProvide" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JsonJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excelDataProvider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="excelDataProvider" />
+      <option name="MAIN_CLASS_NAME" value="excelDataProvider.DataProvide" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -163,7 +169,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ChromeTest1 and 2 more" />
+      <item itemvalue="TestNG.DataProvide" />
       <item itemvalue="TestNG.StopDocker.stopFile" />
       <item itemvalue="TestNG.C:/Users/ruehlein/git/JsonJava/testng.xml" />
       <item itemvalue="TestNG.StartDocker" />
@@ -171,11 +177,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DataProvide" />
         <item itemvalue="TestNG.C:/Users/ruehlein/git/JsonJava/testng.xml" />
         <item itemvalue="TestNG.StartDocker.startFile" />
         <item itemvalue="TestNG.StartDocker" />
         <item itemvalue="TestNG.StopDocker.stopFile" />
-        <item itemvalue="JUnit.ChromeTest1 and 2 more" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676543717757</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="41. Demo- Push the JenkinFIle into Github and Start running Pipeline">
+      <created>1676646566369</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676646566369</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +275,8 @@
     <MESSAGE value="30. Monitor Server logs continuously from Your program for Synchronizing tests&#10;&#10;command from batch file&#10;batch file route to output files&#10;trigger batchfiles from java&#10;how to read files using java&#10;how to monitor files continoustly  for new updates until our texts are found" />
     <MESSAGE value="32. Automate all manual tasks of cleaning data fo every test run" />
     <MESSAGE value="32. Automate all manual tasks of cleaning data fo every test run&#10;&#10;Isn't working :/" />
-    <option name="LAST_COMMIT_MESSAGE" value="32. Automate all manual tasks of cleaning data fo every test run&#10;&#10;Isn't working :/" />
+    <MESSAGE value="41. Demo- Push the JenkinFIle into Github and Start running Pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="41. Demo- Push the JenkinFIle into Github and Start running Pipeline" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -276,6 +290,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/parallel/StartDocker.java</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/excelDataProvider/DataProvide.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

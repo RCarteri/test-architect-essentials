@@ -34,6 +34,9 @@ For this session to work you need to have installed docker and jenkins (configur
 
 With this test he will run a job in jenkins where he will upload the configuration of docker-compose.yaml which has a selenium hub and a container with firefox and one with chrome. Afterwards, it will scale 3 more chrome containers to run the 3 tests in parallel. Finishing dowing the containers.
 
+## Section 10: Integrating DataProvider with Excel for Robust Data Driven Implementation
+In this session it was possible to read data from an excel file and use it in a multidimensional array to run the tests separately, where each line of excel was used in a test.
+
 [course]: https://www.udemy.com/course/sdettraining-testarchitect-fullstackqa/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_88010211481_._ad_535397282061_._kw__._de_c_._dm__._pl__._ti_dsa-705815702041_._li_20583_._pd__._&matchtype=&gclid=CjwKCAiA85efBhBbEiwAD7oLQK22v7tfDS21x2NtOcmZFFBRmW77xpdrGiikKJUqbW5lIfJXErHJRxoC8q0QAvD_BwE
 [sql]: src/main/resources/sql.txt
 [diagram]: src/main/resources/2problem.png
